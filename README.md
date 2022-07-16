@@ -1,324 +1,101 @@
-Contribution: 2021-12-30 20:00
+# Mern-stack-delivery-app
 
-Contribution: 2021-12-30 20:01
+![image](https://drive.google.com/uc?export=view&id=1suIMST1GKIYOxW_FYcWQKE7r2XvJx1qr)
+![image](https://drive.google.com/uc?export=view&id=16KEyxTuiZ4JsuUrOT2UDAYqG9J-PNdQD)
 
-Contribution: 2021-12-30 20:02
+### state: prone to new features and code refactoring.
 
-Contribution: 2021-12-30 20:03
+### Demo: https://fast-food-delivery-app.herokuapp.com/
 
-Contribution: 2021-12-30 20:04
+### To SEE admin features
 
-Contribution: 2021-12-30 20:05
+email: moderator@localhost.com
+password : moderator
 
-Contribution: 2021-12-30 20:06
+## Environment variables
 
-Contribution: 2021-12-30 20:07
+- HOST
+- MONGODB_URI
+- JWT_SECRET_KEY
+- JWT_EMAIL_CONFIRMATION_KEY
+- JWT_RESET_FORGOTTEN_PASSWORD_KEY
 
-Contribution: 2021-12-31 20:00
+### oAuth2
 
-Contribution: 2022-01-01 20:00
+- OAUTH_USER
+- OAUTH_CLIENT_ID
+- OAUTH_CLIENT_SECRET
+- OAUTH_REFRESH_TOKEN
 
-Contribution: 2022-01-04 20:00
+### cloudinary
 
-Contribution: 2022-01-04 20:01
+- CLOUDINARY_NAME
+- CLOUDINARY_KEY
+- CLOUDINARY_SECRET
 
-Contribution: 2022-01-04 20:02
+## Backend
 
-Contribution: 2022-01-04 20:03
+### tecnologies:
 
-Contribution: 2022-01-07 20:00
+- Node.js/ Express
+- MongoDB / Mongoose
+- Json WTK
+- oAuth2
+- Nodemailer
+- Multer
+- Cloudinary
+- socket.io
 
-Contribution: 2022-01-07 20:01
+### Features:
 
-Contribution: 2022-01-07 20:02
+- Authentication using Json Web Tokens
 
-Contribution: 2022-01-07 20:03
+- password encryption using bcrypt library
 
-Contribution: 2022-01-07 20:04
+- account validation , and functional contact form using Nodemailer and googleapis oAuth2
 
-Contribution: 2022-01-10 20:00
+- Access of routes base authorization and permissions.
 
-Contribution: 2022-01-10 20:01
+- Media storage using multer library and cloudinary service.
 
-Contribution: 2022-01-10 20:02
+- Real time new orders and order actualization notifications.
 
-Contribution: 2022-01-10 20:03
+- **request supported** : GET, PUT, POST, DELETE
 
-Contribution: 2022-01-10 20:04
+- **routes:** USERS , PRODUCTS, CATEGORIES, ORDERS,NEWSLETTER, CONTACT, AUTH (Login/Sing Up/forgotPassword/resetPassword),
 
-Contribution: 2022-01-10 20:05
+- initial mongoose set up with : default categories , roles and admin and moderator users.
 
-Contribution: 2022-01-11 20:00
+## Frontend
 
-Contribution: 2022-01-11 20:01
+### Technologies and tools:
 
-Contribution: 2022-01-12 20:00
+- React.js
+- Style-Components
+- React-hook-form
+- React-router-dom
+- React hooks
+- Swiper
+- Socket.io-client
 
-Contribution: 2022-01-12 20:01
+### Features:
 
-Contribution: 2022-01-12 20:02
-
-Contribution: 2022-01-12 20:03
-
-Contribution: 2022-01-14 20:00
-
-Contribution: 2022-01-14 20:01
-
-Contribution: 2022-01-14 20:02
-
-Contribution: 2022-01-14 20:03
-
-Contribution: 2022-01-14 20:04
-
-Contribution: 2022-01-14 20:05
-
-Contribution: 2022-01-14 20:06
-
-Contribution: 2022-01-14 20:07
-
-Contribution: 2022-01-15 20:00
-
-Contribution: 2022-01-15 20:01
-
-Contribution: 2022-01-15 20:02
-
-Contribution: 2022-01-15 20:03
-
-Contribution: 2022-01-15 20:04
-
-Contribution: 2022-01-15 20:05
-
-Contribution: 2022-01-15 20:06
-
-Contribution: 2022-01-15 20:07
-
-Contribution: 2022-01-16 20:00
-
-Contribution: 2022-01-16 20:01
-
-Contribution: 2022-01-16 20:02
-
-Contribution: 2022-01-16 20:03
-
-Contribution: 2022-01-16 20:04
-
-Contribution: 2022-01-17 20:00
-
-Contribution: 2022-01-17 20:01
-
-Contribution: 2022-01-17 20:02
-
-Contribution: 2022-01-17 20:03
-
-Contribution: 2022-01-17 20:04
-
-Contribution: 2022-01-18 20:00
-
-Contribution: 2022-01-18 20:01
-
-Contribution: 2022-01-18 20:02
-
-Contribution: 2022-01-18 20:03
-
-Contribution: 2022-01-18 20:04
-
-Contribution: 2022-01-18 20:05
-
-Contribution: 2022-01-18 20:06
-
-Contribution: 2022-01-19 20:00
-
-Contribution: 2022-01-19 20:01
-
-Contribution: 2022-01-20 20:00
-
-Contribution: 2022-01-20 20:01
-
-Contribution: 2022-01-20 20:02
-
-Contribution: 2022-01-20 20:03
-
-Contribution: 2022-01-21 20:00
-
-Contribution: 2022-01-21 20:01
-
-Contribution: 2022-01-21 20:02
-
-Contribution: 2022-01-21 20:03
-
-Contribution: 2022-01-22 20:00
-
-Contribution: 2022-01-22 20:01
-
-Contribution: 2022-01-22 20:02
-
-Contribution: 2022-01-22 20:03
-
-Contribution: 2022-01-23 20:00
-
-Contribution: 2022-01-23 20:01
-
-Contribution: 2022-01-24 20:00
-
-Contribution: 2022-01-24 20:01
-
-Contribution: 2022-01-24 20:02
-
-Contribution: 2022-01-24 20:03
-
-Contribution: 2022-01-24 20:04
-
-Contribution: 2022-01-24 20:05
-
-Contribution: 2022-01-25 20:00
-
-Contribution: 2022-01-25 20:01
-
-Contribution: 2022-01-25 20:02
-
-Contribution: 2022-01-25 20:03
-
-Contribution: 2022-01-26 20:00
-
-Contribution: 2022-01-26 20:01
-
-Contribution: 2022-01-26 20:02
-
-Contribution: 2022-01-26 20:03
-
-Contribution: 2022-01-26 20:04
-
-Contribution: 2022-01-29 20:00
-
-Contribution: 2022-01-29 20:01
-
-Contribution: 2022-01-29 20:02
-
-Contribution: 2022-01-29 20:03
-
-Contribution: 2022-01-30 20:00
-
-Contribution: 2022-01-30 20:01
-
-Contribution: 2022-01-30 20:02
-
-Contribution: 2022-01-30 20:03
-
-Contribution: 2022-01-30 20:04
-
-Contribution: 2022-01-30 20:05
-
-Contribution: 2022-01-30 20:06
-
-Contribution: 2022-01-30 20:07
-
-Contribution: 2022-01-31 20:00
-
-Contribution: 2022-01-31 20:01
-
-Contribution: 2022-02-01 20:00
-
-Contribution: 2022-02-01 20:01
-
-Contribution: 2022-02-01 20:02
-
-Contribution: 2022-02-01 20:03
-
-Contribution: 2022-02-01 20:04
-
-Contribution: 2022-02-01 20:05
-
-Contribution: 2022-02-01 20:06
-
-Contribution: 2022-02-03 20:00
-
-Contribution: 2022-02-03 20:01
-
-Contribution: 2022-02-04 20:00
-
-Contribution: 2022-02-04 20:01
-
-Contribution: 2022-02-04 20:02
-
-Contribution: 2022-02-04 20:03
-
-Contribution: 2022-02-04 20:04
-
-Contribution: 2022-02-04 20:05
-
-Contribution: 2022-02-06 20:00
-
-Contribution: 2022-02-06 20:01
-
-Contribution: 2022-02-06 20:02
-
-Contribution: 2022-02-06 20:03
-
-Contribution: 2022-02-06 20:04
-
-Contribution: 2022-02-07 20:00
-
-Contribution: 2022-02-07 20:01
-
-Contribution: 2022-02-07 20:02
-
-Contribution: 2022-02-07 20:03
-
-Contribution: 2022-02-07 20:04
-
-Contribution: 2022-02-07 20:05
-
-Contribution: 2022-02-07 20:06
-
-Contribution: 2022-02-08 20:00
-
-Contribution: 2022-02-08 20:01
-
-Contribution: 2022-02-08 20:02
-
-Contribution: 2022-02-08 20:03
-
-Contribution: 2022-02-08 20:04
-
-Contribution: 2022-02-08 20:05
-
-Contribution: 2022-02-08 20:06
-
-Contribution: 2022-02-09 20:00
-
-Contribution: 2022-02-09 20:01
-
-Contribution: 2022-02-09 20:02
-
-Contribution: 2022-02-09 20:03
-
-Contribution: 2022-02-12 20:00
-
-Contribution: 2022-02-12 20:01
-
-Contribution: 2022-02-13 20:00
-
-Contribution: 2022-02-14 20:00
-
-Contribution: 2022-02-15 20:00
-
-Contribution: 2022-02-15 20:01
-
-Contribution: 2022-02-15 20:02
-
-Contribution: 2022-02-15 20:03
-
-Contribution: 2022-02-15 20:04
-
-Contribution: 2022-02-15 20:05
-
-Contribution: 2022-02-15 20:06
-
-Contribution: 2022-02-16 20:00
-
-Contribution: 2022-02-16 20:01
-
-Contribution: 2022-02-16 20:02
-
-Contribution: 2022-02-16 20:03
-
+- Interaction with the backend through API Rest .
+- Unit test examples.
+- Lazy Load components and code splitting.
+- Products and orders section skeletons.
+- Custom Auto-played sliders with dot indicators and controls.
+- Latest products carrousel using swiper.js library.
+- Navbar responsive and animated .
+- Complete authentication system width signup/email validation/login/ forgot password support.
+- Access to Public and Private routes base on roles.
+- Functional contact section with form validation.
+- Loading modal and loading form indicators.
+- Shopping cart.
+- Editable User profile.
+- Products and orders section with sorter, filter and search bar.
+- URL able to storage the user search
+- pagination.
+- User orders tracker page.
+- Real time order notifications.
+- Dashboard with users, categories, orders and products management system.
