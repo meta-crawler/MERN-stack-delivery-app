@@ -9,7 +9,7 @@ async function loginAPI({
   setToken,
   setIsAdmin,
   history,
-  setCurrentUser,
+  // setCurrentUser,
   setAllUsers,
   setIsFormLoading,
   setIsModerator,
